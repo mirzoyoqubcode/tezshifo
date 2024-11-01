@@ -1,0 +1,45 @@
+.presentation {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  padding: 0;
+  background-color: #4d6cbd;
+  width: 99%;
+  height: 640px;
+  position: relative;
+  .presentation_wrapper {
+    width: 90%;
+    margin: auto;
+    .presentation_text {
+      padding: 12rem 0;
+      .presentation_title {
+        color: #ffffff;
+      }
+      .presentation_description {
+        margin: 32px 0;
+        color: #ffffffc1;
+        font-size: 24px;
+      }
+      .presentation_btn {
+        width: 304px;
+        height: 56px;
+        padding: 12px;
+        font-size: 18px;
+        border-radius: 8px;
+        background: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover {
+          background-color: #ffffff;
+          border: 1px solid #ffffff;
+          color: #4d6cbd;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+    .doctor_calendar {
+      position: absolute;
+      right: -19.5px;
+      top: 0;
+    }
+  }
+}

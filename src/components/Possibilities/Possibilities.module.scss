@@ -1,0 +1,26 @@
+.possibilities {
+  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  .possibilities_wrapper {
+    padding: 3rem 0;
+    width: 90%;
+    margin: auto;
+    .possibilities_title {
+      font-weight: 700;
+      font-size: 48px;
+    }
+    .possibilities_content_title {
+      margin-bottom: 32px;
+      font-size: 36px;
+    }
+    .possibilities_content_list {
+      font-size: 18px;
+      margin-bottom: 24px;
+    }
+    .possibilities_content_wrapper {
+      margin: 80px 0 64px 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 80px;
+    }
+  }
+}

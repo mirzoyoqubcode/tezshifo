@@ -1,0 +1,78 @@
+.footer {
+  margin-top: 8rem;
+  background-color: #4d6cbd;
+  padding: 10px 0;
+  .wrapper_footer {
+    width: 90%;
+    margin: auto;
+    .footer_logo {
+      border-bottom: 1px solid #ffffff;
+      padding: 40px 0 24px 0;
+    }
+  }
+  .wrapper_footer_links {
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    padding: 24px 0;
+    .footer_texts {
+      .footer_title {
+        color: #ffffffc1;
+      }
+    }
+    .social_media {
+      display: flex;
+      gap: 8px;
+      .icon_social {
+        cursor: pointer;
+      }
+    }
+  }
+  .footer_links {
+    font-family: "IBM Plex Sans Devanagari", sans-serif;
+    color: #ffffffc1;
+    .footer_links_title {
+      color: #ffffff;
+    }
+    .footer_links_list_wrapper {
+      list-style-type: none;
+      margin-top: 1rem;
+      .footer_links_list {
+        margin-bottom: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer_contacts {
+    color: #ffffffc1;
+    list-style-type: none;
+    .footer_contacts_title {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      padding-bottom: 1rem;
+      color: #ffffff;
+    }
+    .footer_contacts_list_wrapper {
+      list-style-type: none;
+    }
+  }
+  .bottom_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+    .copyright {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      color: #ffffffc1;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .arrow_up {
+      cursor: pointer;
+      transition: transform 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.container_services {
+  position: relative;
+  .service_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -99;
+  }
+  .services_middle {
+    width: 90%;
+    margin: 5rem auto;
+    .article_wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    article {
+      display: flex;
+      border-radius: 16px;
+    }
+    .services_article_1 {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      width: 736px;
+      height: 280px;
+      background-color: #e5e6ef;
+      .article_texts {
+        padding: 24px;
+      }
+      .medcard_title {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .medcard_description {
+        color: #656565;
+        margin-top: 15px;
+      }
+    }
+    .services_article_2 {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 952px;
+      height: 330px;
+      padding: 27px;
+      background: radial-gradient(50% 50% at 50% 50%, #bcdaf8 0%, #a1d2fa 100%);
+      .application_qr_title {
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .application_qr_description {
+        color: #000000;
+        margin: 1rem 0;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .qr {
+        margin: 0 56px;
+      }
+      .article_buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        bottom: 2rem;
+        button {
+          width: 160px;
+          height: 48px;
+          padding: 8px 10px;
+          border-radius: 8px;
+          border: 1px solid #a6a6a6;
+          cursor: pointer;
+        }
+      }
+    }
+    .services_article_3 {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      margin: -3rem 0;
+      background: linear-gradient(0deg, #aaa2f0, #aaa2f0),
+        radial-gradient(50% 50% at 50% 50%, #c3bfe9 0%, #c6c0f6 100%);
+      padding: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 734px;
+      height: 253px;
+      .article_title {
+        font-weight: 600;
+        font-size: 24px;
+      }
+      .description_cubic {
+        font-size: 18px;
+        margin: 10px 0;
+        font-weight: 400;
+      }
+      .cubic_list {
+        padding-left: 25px;
+        li {
+          font-size: 16px;
+        }
+      }
+    }
+    .services_article_4 {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      background: radial-gradient(50% 50% at 50% 50%, #b1f2f2 0%, #8ee9ec 100%);
+      width: 952px;
+      height: 206px;
+      display: flex;
+      justify-content: space-between;
+      .article_texts {
+        padding: 24px;
+        .doctor_title {
+          text-align: end;
+          font-size: 24px;
+          font-weight: 600;
+        }
+        .doctor_description {
+          text-align: end;
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

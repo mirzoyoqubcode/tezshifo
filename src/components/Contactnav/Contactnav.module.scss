@@ -1,0 +1,55 @@
+.container_navbar {
+  width: 70%;
+  .middle {
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 12px;
+      .logo_title {
+        color: #4d6cbd;
+        text-transform: uppercase;
+        font-family: "Dosis", sans-serif;
+      }
+    }
+    .navbar_links {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 56px;
+      .link {
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+      }
+      @media screen and (max-width: 1200px) {
+        display: none;
+      }
+    }
+    .btn_call {
+      font-family: "IBM Plex Sans Devanagari", sans-serif;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #4d6cbd;
+      background: transparent;
+      color: #4d6cbd;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      &:hover {
+        border: 1px solid #4d6cbd;
+        background-color: #edf0f8;
+        transition: 0.5s ease-in-out;
+      }
+    }
+  }
+}
